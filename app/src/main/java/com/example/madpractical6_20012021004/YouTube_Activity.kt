@@ -9,7 +9,7 @@ class YouTube_Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_you_tube)
 
-        val youtubeid = ""
+        val youtubeid = "fJn9B64Znrk"
         val mywebview= findViewById<WebView>(R.id.webview)
         val settings = mywebview.settings
         settings.javaScriptEnabled=true
